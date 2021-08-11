@@ -92,8 +92,6 @@ a,a:hover{
   -moz-transition:all .3s ease;
   transition:all .3s ease
 }
-
-/*Layout Css*/
 .section-content-p35{
   padding:0 35px
 }
@@ -111,7 +109,8 @@ a,a:hover{
 
 .main-content{
   padding-top:116px;
-  min-height:100vh
+  min-height:100vh;
+  background: white;
 }
 
 aside.menu-sidebar.d-none.d-lg-block.clr{
@@ -121,11 +120,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
   box-shadow:-2px 0 4px #0000003b
 }
 
-/*
- * ----------------------------
- * Header Desktop Section
- * ----------------------------
- */
+
 
 .header-desktop{
   background:#0da8e4;
@@ -301,11 +296,7 @@ input.au-input.au-input-xl{
   transform:translate(-50%,-50%)
 }
 
-/*
- * ----------------------------
- * Left Menu Bar
- * ----------------------------
- */
+
 
 .menu-sidebar{
   width:200px;
@@ -352,7 +343,8 @@ input.au-input.au-input-xl{
   position:relative;
   height:-webkit-calc(100vh - 75px);
   height:-moz-calc(100vh - 75px);
-  height:calc(100vh - 75px)
+  height:calc(100vh - 75px);
+  background: #f7fafc;
 }
 
 .navbar-sidebar{
@@ -362,7 +354,8 @@ input.au-input.au-input-xl{
 
 .navbar-sidebar .navbar-list li a{
   display:block;
-  color:#555;
+  /*color:#555;*/
+  color: #5469d4;
   font-size:16px;
   padding:5px 0;
   text-decoration: none;
@@ -373,14 +366,10 @@ input.au-input.au-input-xl{
 }
 
 .navbar-sidebar .navbar-list li a:hover{
-  color:#0da8e4
+  /*color:#0da8e4*/
 }
 
-/*
- * ----------------------------
- * Header Mobile Section
- * ----------------------------
- */
+
 
 .header-mobile{
   position:absolute;
@@ -512,11 +501,7 @@ input.au-input.au-input-xl{
   padding:10% 15%!important
 }
 
-/*
- * ----------------------------
- * Products List
- * ----------------------------
- */
+
 
 .product-box img {
   width: 150px;
@@ -554,11 +539,7 @@ input.au-input.au-input-xl{
   color:#585858
 }
 
-/*
- * ----------------------------
- * Shopping Cart Checkout
- * ----------------------------
- */
+
 
 .form-area{
   background:#e5e5e5;
@@ -668,11 +649,7 @@ select{
   color:#828482
 }
 
-/*
- * ----------------------------
- * Shopping Cart Details
- * ----------------------------
- */
+
 
 .table{
   margin:0
@@ -703,11 +680,7 @@ table.table.table-bordered th{
   margin-left:5px
 }
 
-/*
- * ----------------------------
- * Product Details
- * ----------------------------
- */
+
 
 .price{
   margin:15px 0 0;
@@ -717,13 +690,7 @@ table.table.table-bordered th{
 .detail-section{
   margin-top:60px
 }
-/**/
 
-/*
- * ----------------------------
- * Buttons
- * ----------------------------
- */
 
 .btn-info{
   color:#fff;
@@ -750,11 +717,7 @@ a.primary-btn:hover{
   font-weight: bold;
 }
 
-/*
- * ----------------------------
- * Footer section
- * ----------------------------
- */
+
 
 footer ul li a{
   color:#fff
@@ -775,11 +738,7 @@ footer ul li{
   padding:10px 20px
 }
 
-/*
- * ----------------------------
- * Media Queries
- * ----------------------------
- */
+
 
 @media (max-width:1600px){
   .au-input-xl{
@@ -845,7 +804,8 @@ footer ul li{
   }
   .main-content{
     padding-top:50px;
-    padding-bottom:100px
+    padding-bottom:100px;
+
   }
   .cart-area.d-n{
     display:none
