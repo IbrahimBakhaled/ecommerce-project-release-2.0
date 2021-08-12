@@ -694,6 +694,10 @@ table.table.table-bordered th{
   margin-top:60px
 }
 
+.detail-img {
+  width: 30%;
+}
+
 
 .btn-info{
   color:#fff;
