@@ -107,6 +107,9 @@ a,a:hover{
   padding-left:200px
 }
 
+a{
+  text-decoration: none;
+}
 .main-content{
   padding-top:116px;
   min-height:100vh;
