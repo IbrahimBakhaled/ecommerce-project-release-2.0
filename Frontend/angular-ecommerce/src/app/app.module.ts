@@ -16,10 +16,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import {A11yModule} from "@angular/cdk/a11y";
 
 
 
 const routes : Routes = [
+  {path: 'checkout', component: CheckoutComponent},
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
   {path: 'search/:keyword', component: ProductListComponent},
@@ -42,6 +46,7 @@ const routes : Routes = [
     ProductDetailsComponent,
     CartStatusComponent,
     CartDetailsComponent,
+    CheckoutComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -51,7 +56,9 @@ const routes : Routes = [
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    ReactiveFormsModule,
+    A11yModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
