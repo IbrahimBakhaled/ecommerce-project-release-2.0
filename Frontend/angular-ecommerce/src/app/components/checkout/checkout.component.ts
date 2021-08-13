@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ɵConsole} from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
 
 @Component({
@@ -9,9 +9,12 @@ import {FormBuilder, FormGroup} from "@angular/forms";
 export class CheckoutComponent implements OnInit {
 
 
-  checkoutFormGroup! : FormGroup;
+  checkoutFormGroup : FormGroup;
 
-  constructor(private formBuilder: FormBuilder) { }
+  totalPrice : number =0;
+  totalQuantity: number =0;
+
+  constructor(public formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
     this.checkoutFormGroup = this.formBuilder.group({
@@ -19,8 +22,40 @@ export class CheckoutComponent implements OnInit {
         firstName: [''],
         lastName : [''],
         email:['']
-      })
+      }),
+    shippingAddress: this.formBuilder.group({
+      street:[''],
+      city:[''],
+      state:[''],
+      country:[''],
+      zipCode:['']
+
+    }),
+      billingAddress: this.formBuilder.group({
+        street:[''],
+        city:[''],
+        state:[''],
+        country:[''],
+        zipCode:['']
+
+      }),
+      creditCard: this.formBuilder.group({
+        cardType:[''],
+        nameOnCard:[''],
+        cardNumber:[''],
+        securityCode:[''],
+        expirationMonth:[''],
+        expirationYear:['']
+
+      }),
     });
+  }
+
+
+  onSubmit(){
+    console.log("you clicked on submit button");
+    console.log(this.checkoutFormGroup.get('customer')!.value);
+    console.log("the Email address is " + this.checkoutFormGroup.get('customer')!.value.email);
   }
 
 }

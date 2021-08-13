@@ -545,17 +545,17 @@ input.au-input.au-input-xl{
 
 
 .form-area{
-  background:#e5e5e5;
+  background:#f7fafc;
   position:relative;
   margin-bottom:45px;
   padding:50px 20px;
-  border:3px solid #ccc
+  border:1px solid #ccc
 }
 .form-area h3{
   position:absolute;
   top:-26px;
   left:13px;
-  background:#e5e5e5;
+  background:#f7fafc;
   padding:10px 20px;
   font-weight:500;
   z-index:23;
