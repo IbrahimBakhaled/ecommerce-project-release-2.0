@@ -10,10 +10,17 @@ import { ProductCategoryMenuComponent } from './components/product-category-menu
 import { SearchComponent } from './components/search/search.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CartStatusComponent } from './components/cart-status/cart-status.component';
+import { CartDetailsComponent } from './components/cart-details/cart-details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
 const routes : Routes = [
+  {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
   {path: 'search/:keyword', component: ProductListComponent},
   {path: 'category/:id', component: ProductListComponent},
@@ -32,13 +39,19 @@ const routes : Routes = [
     ProductListComponent,
     ProductCategoryMenuComponent,
     SearchComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CartStatusComponent,
+    CartDetailsComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
     BrowserModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

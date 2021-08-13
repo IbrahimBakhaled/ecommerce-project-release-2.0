@@ -126,7 +126,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
 
 
 .header-desktop{
-  background:#0da8e4;
+  background:#8cd0e3;
   -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
   -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
   box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
@@ -724,7 +724,9 @@ a.primary-btn:hover{
   font-weight: bold;
 }
 
-
+i{
+  margin:0 12px;
+}
 
 footer ul li a{
   color:#fff
@@ -732,8 +734,16 @@ footer ul li a{
 footer{
   background:#232324;
   z-index:1;
-  position:relative;
-  text-align:center
+  /*position:relative;*/
+  text-align:center;
+  /*bottom: -16px;*/
+  position: fixed;
+  height: 50px;
+  /*background-color: red;*/
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 footer li a{
   color:#313131;
@@ -998,3 +1008,6 @@ footer ul li{
     padding:8px 0
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

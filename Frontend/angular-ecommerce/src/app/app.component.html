@@ -2,7 +2,7 @@
 
   <aside class="menu-sidebar d-none d-lg-block">
     <div class="logo">
-      <a href="#">
+      <a routerLink="/products">
         <img src="assets/images/logo.png" alt="shoppyland" class="img-responsive" style="transform: scale(0.5)">
       </a>
     </div>
@@ -19,12 +19,8 @@
 
             <app-search></app-search>
 
-            <div class="cart-area d-n">
-              <a href="shopping-detail.html">
-                <div class="total">19.22 <span> 2</span> </div> <i class="fa fa-shopping-cart"
-                                                                   aria-hidden="true"></i>
-              </a>
-            </div>
+
+            <app-cart-status></app-cart-status>
           </div>
           <div class="account-wrap"></div>
         </div>
@@ -43,12 +39,22 @@
   </div>
   </div>
 
-
-
 <footer>
-  <ul>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact Us</a></li>
-    <li><a href="#">Help</a></li>
-  </ul>
+  <div class="icons-container" style="width: 50%; margin: auto; margin-top: 15px;">
+
+    <a href="https://github.com/IbrahimBakhaled">
+      <i class="fab fa-github" style="color: white;"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/bakhaled-ibrahim-887429206/">
+      <i class="fab fa-linkedin" style="color: white;"></i>
+    </a>
+
+    <i title="bakhaledibrahim@gmail.com" class="fas fa-paper-plane" style="color: white;"></i>
+  </div>
+
+<!--  <ul>-->
+<!--    <li><a href="#">About Us</a></li>-->
+<!--    <li><a href="#">Contact Us</a></li>-->
+<!--    <li><a href="#">Help</a></li>-->
+<!--  </ul>-->
 </footer>
