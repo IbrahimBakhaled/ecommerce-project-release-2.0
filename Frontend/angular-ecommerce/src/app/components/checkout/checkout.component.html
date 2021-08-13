@@ -225,10 +225,9 @@
                 <div class="input-space">
                      <!--formControlName="firstName"  === firstName dans le component checkout.component.ts  -->
                   <select formControlName="expirationMonth" >
-                    <option>August</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>December</option>
+                    <option *ngFor="let month of creditCardMonths">
+                      {{month}}
+                    </option>
                   </select>
                 </div>
               </div>
@@ -239,8 +238,9 @@
               <div class="input-space">
                 <!--formControlName="firstName"  === firstName dans le component checkout.component.ts  -->
                 <select formControlName="expirationYear" >
-                <option>2021</option>
-                  <option>2022</option>
+                  <option *ngFor="let year of creditCardYears">
+                    {{year}}
+                  </option>
                 </select>
               </div>
             </div>
