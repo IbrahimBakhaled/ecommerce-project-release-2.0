@@ -1,6 +1,7 @@
 import {Component, OnInit, ɵConsole} from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
 import {ShoppylandFormService} from "../../services/shoppyland-form.service";
+import {JSONSchema4Object} from "json-schema";
 
 @Component({
   selector: 'app-checkout',
@@ -74,9 +75,6 @@ export class CheckoutComponent implements OnInit {
        }
      );
 
-
-
-
   }
 
 
@@ -88,4 +86,29 @@ export class CheckoutComponent implements OnInit {
     console.log("the Email address is " + this.checkoutFormGroup.get('customer')!.value.email);
   }
 
+
+  handleMonthsAndYears(){
+    const creditCardFormGroup = this.checkoutFormGroup.get('creditCard');
+
+    const currentYear : number = new Date().getFullYear();
+    const selectedYear : number = Number(creditCardFormGroup!.value.expirationYear);
+
+
+    // si l'annee actuel egale selected year alors commencé avec le mois actuell
+
+    let startMonth : number;
+
+    if (currentYear === selectedYear){
+      startMonth = new Date().getMonth() + 1;
+    }else {
+      startMonth = 1;
+    }
+
+    this.shoppylandFormService.getCreditCardMonths(startMonth).subscribe(
+      data => {
+        console.log("Retrieved credit card month:" + JSON.stringify(data));
+        this.creditCardMonths = data;
+      }
+    )
+  }
 }

@@ -1,7 +1,9 @@
 package com.ecommerce.Config;
 
+import com.ecommerce.Domain.Country;
 import com.ecommerce.Domain.Product;
 import com.ecommerce.Domain.ProductCategory;
+import com.ecommerce.Domain.State;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
@@ -44,9 +46,29 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
                 .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
                 .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
 
-        // disactiver les methods : PUT, POST DELETE pour ProductCategory
+
+
+
+        // desactiver les methods : PUT, POST DELETE pour ProductCategory
         config.getExposureConfiguration()
                 .forDomainType(ProductCategory.class)
+                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+
+
+
+        // desactiver les methods : PUT, POST DELETE pour Country
+        config.getExposureConfiguration()
+                .forDomainType(Country.class)
+                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+
+
+
+
+        // desactiver les methods : PUT, POST DELETE pour State
+        config.getExposureConfiguration()
+                .forDomainType(State.class)
                 .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
                 .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
 
