@@ -1,7 +1,8 @@
 import {Component, OnInit, ɵConsole} from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
 import {ShoppylandFormService} from "../../services/shoppyland-form.service";
-import {JSONSchema4Object} from "json-schema";
+import {Country} from "../../common/country";
+import {State} from "../../common/state";
 
 @Component({
   selector: 'app-checkout',
@@ -19,6 +20,12 @@ export class CheckoutComponent implements OnInit {
 
   creditCardYears : number[] = [];
   creditCardMonths : number[] = [];
+
+
+
+  countries: Country[] = [];
+  shippingAddressStates : State[] = [];
+  billingAddressStates : State[] = [];
 
   constructor(public formBuilder: FormBuilder,
               private shoppylandFormService : ShoppylandFormService) { }
@@ -68,6 +75,14 @@ export class CheckoutComponent implements OnInit {
      );
 
 
+     this.shoppylandFormService.getCountries().subscribe(
+       data => {
+         console.log("Retrieved countries: " + JSON.stringify(data));
+         this.countries = data;
+       }
+     );
+
+
      this.shoppylandFormService.getCreditCardYears().subscribe(
        data =>{
          console.log("Retrieved credit card years: " + JSON.stringify(data));
@@ -110,5 +125,28 @@ export class CheckoutComponent implements OnInit {
         this.creditCardMonths = data;
       }
     )
+  }
+
+  getStates(formGroupName: string) {
+    const formGroup = this.checkoutFormGroup.get(formGroupName);
+
+    const countryCode = formGroup!.value.country.code;
+    const countryName = formGroup!.value.country.name;
+
+    console.log(`${formGroupName} country code : ${countryCode}`);
+    console.log(`${formGroupName} country name : ${countryName}`);
+
+    this.shoppylandFormService.getStates(countryCode).subscribe(
+      data => {
+        if(formGroupName === 'shippingAddress'){
+          this.shippingAddressStates = data;
+        } else {
+          this.billingAddressStates = data;
+        }
+
+        // selecte le premier state par defaut
+        formGroup!.get('state')!.setValue(data[0]);
+      }
+    );
   }
 }
