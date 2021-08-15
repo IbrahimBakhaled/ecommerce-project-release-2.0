@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1bf688-2e41-432a-988d-409b7a4c4b5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Controller/CheckoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Dto/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Dto/PurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Service/CheckoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Service/CheckoutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/angular-ecommerce/node_modules/" />
@@ -128,8 +131,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
