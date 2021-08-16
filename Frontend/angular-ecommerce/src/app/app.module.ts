@@ -19,10 +19,12 @@ import { MatSortModule } from '@angular/material/sort';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {A11yModule} from "@angular/cdk/a11y";
+import {LoginComponent} from "./components/login/login.component";
 
 
 
 const routes : Routes = [
+  {path: 'login', component: LoginComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
@@ -47,6 +49,7 @@ const routes : Routes = [
     CartStatusComponent,
     CartDetailsComponent,
     CheckoutComponent,
+    LoginComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
