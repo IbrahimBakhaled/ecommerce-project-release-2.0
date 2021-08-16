@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {HttpClientModule} from "@angular/common/http";
+import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {ProductService} from "./services/product.service";
 import { ProductListComponent } from './components/product-list/product-list.component';
 import {Routes, RouterModule} from "@angular/router";
@@ -19,10 +19,18 @@ import { MatSortModule } from '@angular/material/sort';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {A11yModule} from "@angular/cdk/a11y";
+import {LoginComponent} from "./components/login/login.component";
+import { CallbackComponent } from './components/callback/callback.component';
+import { HomeComponent } from './components/home/home.component';
+import {AuthGuard} from "./auth.guard";
+import {AuthInterceptor} from "./auth.interceptor";
 
 
 
 const routes : Routes = [
+  {path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
+  {path: 'login', component: LoginComponent},
+  {path: 'callback', component: CallbackComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
@@ -33,8 +41,6 @@ const routes : Routes = [
   {path: '',redirectTo: '/products', pathMatch:'full'},
   {path: '**', redirectTo: '/products', pathMatch:'full'},
 
-
-  
 ];
 
 
@@ -48,6 +54,10 @@ const routes : Routes = [
     CartStatusComponent,
     CartDetailsComponent,
     CheckoutComponent,
+    LoginComponent,
+    CallbackComponent,
+    HomeComponent,
+
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -61,7 +71,16 @@ const routes : Routes = [
     ReactiveFormsModule,
     A11yModule
   ],
-  providers: [ProductService],
+  providers: [ProductService,
+    {
+    provide: HTTP_INTERCEPTORS,
+    useClass : AuthInterceptor,
+      multi: true
+
+
+  }
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
