@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff1bf688-2e41-432a-988d-409b7a4c4b5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/InMemoryRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/MyDataRestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/TokenStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Controller/CheckoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Domain/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Dto/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Dto/PurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/EcommerceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/ProductCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Repositories/StateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Service/CheckoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Service/CheckoutServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/test/java/com/ecommerce/EcommerceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/country.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/country.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product-category.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product-category.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/state.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/291716_github_logo_social network_social_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/Octocat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/github-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-table.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-shoppyland-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-shoppyland-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-shoppyland-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-shoppyland-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/custom-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/angular-ecommerce/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1328">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>a.pri</find>
+      <find>navbar-sideba</find>
+      <find>main-content</find>
+      <find>detail-section</find>
+      <find>active-link</find>
+      <find>footer-pagination</find>
+      <find>.header-des</find>
+      <find>footer</find>
+      <find>page-m</find>
+      <find>label</find>
+      <find>form-area</find>
+      <find>total</find>
+      <find>router-outlet</find>
+      <find>page-container</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/index.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/scss/_tables.scss" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/country.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/state.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/security.service.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/auth.interceptor.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/github-logo.svg" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/auth.guard.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/html-template/html-template.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.module.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/styles.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-25" />
+    <option name="y" value="367" />
+    <option name="width" value="1204" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="product-category-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="product-details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="product-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\src\app\components\LoginModule\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\src\app\components\LoginModule\login" />
+      <recent name="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\src\app\components\LoginModule" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff1bf688-2e41-432a-988d-409b7a4c4b5a" name="Default Changelist" comment="" />
+      <created>1628608306146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628608306146</updated>
+      <workItem from="1628608307864" duration="7198000" />
+      <workItem from="1628636487400" duration="7821000" />
+      <workItem from="1628724626286" duration="7577000" />
+      <workItem from="1628780310307" duration="30601000" />
+      <workItem from="1628867345732" duration="16278000" />
+      <workItem from="1628897213186" duration="594000" />
+      <workItem from="1628955152676" duration="18677000" />
+      <workItem from="1629043924709" duration="5555000" />
+      <workItem from="1629244020466" duration="1554000" />
+      <workItem from="1629379127350" duration="599000" />
+      <workItem from="1629381095253" duration="548000" />
+      <workItem from="1629382707791" duration="2955000" />
+      <workItem from="1629386759736" duration="26184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126141000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.38325283" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" visible="true" weight="0.2721417" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/forms/forms.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/router/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="2808" column="21" selection-start-line="2808" selection-start-column="21" selection-end-line="2808" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/github-logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="179" column="1" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/auth.interceptor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/security.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/html-template/html-template.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/html-template/html-template.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login/login.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1328">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
