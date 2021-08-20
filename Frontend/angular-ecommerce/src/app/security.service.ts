@@ -29,6 +29,7 @@ export class SecurityService {
   }
 
 
+<<<<<<< HEAD
   getToken(){
     return localStorage.getItem(this.tokenKey);
   }
@@ -37,5 +38,15 @@ export class SecurityService {
     const token = this.getToken();
     return token != null;
   }
+=======
+getToken(){
+    return localStorage.getItem(this.tokenKey);
+}
+
+isLoggedIn(){
+    const token = this.getToken();
+    return token != null;
+}
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
 }
 

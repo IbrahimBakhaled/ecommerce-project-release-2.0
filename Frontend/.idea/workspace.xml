@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1bf688-2e41-432a-988d-409b7a4c4b5a" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -235,6 +236,20 @@
       <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.app.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.spec.json" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/InMemoryRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Config/TokenStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/java/com/ecommerce/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
     </list>
     <ignored path="$PROJECT_DIR$/angular-ecommerce/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -247,12 +262,41 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1328">
               <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1856">
+              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2768">
+              <caret line="184" column="18" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -261,10 +305,100 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+=======
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+              </folding>
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
             </state>
           </provider>
         </entry>
@@ -285,8 +419,11 @@
       <find>label</find>
       <find>form-area</find>
       <find>total</find>
+<<<<<<< HEAD
       <find>router-outlet</find>
       <find>page-container</find>
+=======
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,27 +432,60 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/angular-ecommerce/src/index.html" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" />
+=======
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/product-category.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/index.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.css" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.html" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/scss/_tables.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/dist/css/bootstrap.css" />
+=======
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/styles.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/country.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/state.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.ts" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" />
+=======
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" />
+<<<<<<< HEAD
+=======
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/security.service.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/auth.interceptor.ts" />
@@ -346,13 +516,25 @@
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" />
         <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" />
+=======
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" />
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+        <option value="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
     <option name="x" value="-25" />
     <option name="y" value="367" />
     <option name="width" value="1204" />
+=======
+    <option name="x" value="675" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -402,6 +584,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="product-category-menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,6 +622,10 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="product-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </expand>
           <select />
         </subPane>
@@ -451,6 +638,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/login" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -465,6 +653,13 @@
       <recent name="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\src\app\components\LoginModule\login" />
       <recent name="C:\Users\Lucidity\Desktop\ecommerce-project-release-2.0-SecurityBranche\ecommerce-project-release-2.0-SecurityBranche\Frontend\angular-ecommerce\src\app\components\LoginModule" />
     </key>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Backend/ecommerce" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\Lucidity\Desktop\E-commerce Project Without jhipster\Frontend\angular-ecommerce\node_modules\typescript\lib" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -495,17 +690,30 @@
       <workItem from="1628867345732" duration="16278000" />
       <workItem from="1628897213186" duration="594000" />
       <workItem from="1628955152676" duration="18677000" />
+<<<<<<< HEAD
       <workItem from="1629043924709" duration="5555000" />
       <workItem from="1629244020466" duration="1554000" />
       <workItem from="1629379127350" duration="599000" />
       <workItem from="1629381095253" duration="548000" />
       <workItem from="1629382707791" duration="2955000" />
       <workItem from="1629386759736" duration="26184000" />
+=======
+      <workItem from="1629043924709" duration="5704000" />
+      <workItem from="1629129542178" duration="572000" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="126141000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="89338000" />
+=======
+    <option name="totallyTimeSpent" value="95022000" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,8 +726,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,8 +751,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32850242" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.38325283" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" visible="true" weight="0.2721417" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.35909823" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,6 +773,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/forms/forms.d.ts" />
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/package.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -581,10 +801,33 @@
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -605,10 +848,35 @@
           <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -650,10 +918,54 @@
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.css" />
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table-datasource.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/data-table/data-table.component.html" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -682,21 +994,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#66#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/environments/environment.prod.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -710,10 +1066,28 @@
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+=======
+=======
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/typescript/lib/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="1296" column="4" selection-start-line="1296" selection-start-column="4" selection-end-line="1296" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/callback/callback.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -737,10 +1111,39 @@
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/scss/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="327" column="17" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1392" />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -750,20 +1153,51 @@
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+=======
+=======
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="557" column="20" selection-start-line="557" selection-start-column="20" selection-end-line="557" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="65" column="107" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/security.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -818,10 +1252,57 @@
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/country.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/typescript/lib/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="11366" column="13" selection-start-line="11366" selection-start-column="13" selection-end-line="11366" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/forms/forms.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="2102" column="4" selection-start-line="2102" selection-start-column="4" selection-end-line="2102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/shoppyland-form.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -838,10 +1319,38 @@
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/validators/shoppyland-validators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/LoginModule/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -865,10 +1374,33 @@
           <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/cart-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -920,26 +1452,49 @@
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/router/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2262" column="4" selection-start-line="2262" selection-start-column="4" selection-end-line="2262" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -948,18 +1503,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+<<<<<<< HEAD
+        <state relative-caret-position="1856">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+=======
+        <state relative-caret-position="2768">
+          <caret line="184" column="18" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
+>>>>>>> 9407b9d502e922761e8d43aa9523fe4493dcca17
           <folding>
             <element signature="e#0#58#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#app-html-template#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#footer#0;n#!!top" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1328">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+>>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
         </state>
       </provider>
     </entry>
