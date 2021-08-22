@@ -70,7 +70,7 @@ const routes : Routes = [
   exports: [
     ProductCategoryMenuComponent,
     SearchComponent,
-    CartStatusComponent
+    CartStatusComponent,
   ],
   providers: [ProductService, {provide: HTTP_INTERCEPTORS,
     useClass : AuthInterceptor,

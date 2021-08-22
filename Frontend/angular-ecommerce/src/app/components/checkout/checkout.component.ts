@@ -80,19 +80,14 @@ export class CheckoutComponent implements OnInit {
     });
 
      const startMonth : number = new Date().getMonth() +1;
-<<<<<<< HEAD
+
      // console.log('startMonth: ' + startMonth);
 
      this.shoppylandFormService.getCreditCardMonths(startMonth).subscribe(
        data => {
          // console.log("Retrieved credit card months: " + JSON.stringify(data));
-=======
-     console.log('startMonth: ' + startMonth);
 
-     this.shoppylandFormService.getCreditCardMonths(startMonth).subscribe(
-       data => {
          console.log("Retrieved credit card months: " + JSON.stringify(data));
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
        this.creditCardMonths = data;
        }
      );
@@ -100,11 +95,8 @@ export class CheckoutComponent implements OnInit {
 
      this.shoppylandFormService.getCountries().subscribe(
        data => {
-<<<<<<< HEAD
+
          // console.log("Retrieved countries: " + JSON.stringify(data));
-=======
-         console.log("Retrieved countries: " + JSON.stringify(data));
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
          this.countries = data;
        }
      );
@@ -112,11 +104,8 @@ export class CheckoutComponent implements OnInit {
 
      this.shoppylandFormService.getCreditCardYears().subscribe(
        data =>{
-<<<<<<< HEAD
          // console.log("Retrieved credit card years: " + JSON.stringify(data));
-=======
-         console.log("Retrieved credit card years: " + JSON.stringify(data));
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+         // console.log("Retrieved credit card years: " + JSON.stringify(data));
          this.creditCardYears = data;
        }
      );
@@ -174,22 +163,14 @@ export class CheckoutComponent implements OnInit {
     //configurer order / orderItels
     purchase.order = order;
     purchase.orderItems = orderItems;
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
     // finallement appelé REST API apartir CheckoutService
     this.checkoutService.placeOrder(purchase).subscribe(
       {
         next: response =>{
           alert(`Your order has been received.\nOrder tracking number: ${response.orderTrackingNumber}`);
           this.resetCart();
-<<<<<<< HEAD
 
-=======
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
         },
         error: err => {
           alert(`There was an error: ${err.message}`);
@@ -218,11 +199,11 @@ export class CheckoutComponent implements OnInit {
 
     this.shoppylandFormService.getCreditCardMonths(startMonth).subscribe(
       data => {
-<<<<<<< HEAD
+
         // console.log("Retrieved credit card month:" + JSON.stringify(data));
-=======
+
         console.log("Retrieved credit card month:" + JSON.stringify(data));
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
+
         this.creditCardMonths = data;
       }
     )
@@ -234,13 +215,11 @@ export class CheckoutComponent implements OnInit {
     const countryCode = formGroup!.value.country.code;
     const countryName = formGroup!.value.country.name;
 
-<<<<<<< HEAD
+
     // console.log(`${formGroupName} country code : ${countryCode}`);
     // console.log(`${formGroupName} country name : ${countryName}`);
-=======
     console.log(`${formGroupName} country code : ${countryCode}`);
     console.log(`${formGroupName} country name : ${countryName}`);
->>>>>>> 7387810bbf4b031bedd2fe9343e614233ce70d71
 
     this.shoppylandFormService.getStates(countryCode).subscribe(
       data => {
@@ -268,11 +247,13 @@ export class CheckoutComponent implements OnInit {
 
 
   // les getterus pour les validation du form
-  get firstName(){ return this.checkoutFormGroup.get('customer.firstName'); }
+    get firstName(){ return this.checkoutFormGroup.get('customer.firstName'); }
   get lastName(){ return this.checkoutFormGroup.get('customer.lastName'); }
   get email(){ return this.checkoutFormGroup.get('customer.email'); }
 
-  get shippingAddressStreet(){ return this.checkoutFormGroup.get('shippingAddress.street'); }
+  get shippingAddressStreet(){
+         return this.checkoutFormGroup.get('shippingAddress.street');
+       }
   get shippingAddressCountry(){ return this.checkoutFormGroup.get('shippingAddress.country'); }
   get shippingAddressState(){ return this.checkoutFormGroup.get('shippingAddress.state'); }
   get shippingAddressZipCode(){ return this.checkoutFormGroup.get('shippingAddress.zipCode'); }
@@ -284,7 +265,9 @@ export class CheckoutComponent implements OnInit {
   get billingAddressZipCode(){ return this.checkoutFormGroup.get('billingAddress.zipCode'); }
   get billingAddressCity(){ return this.checkoutFormGroup.get('billingAddress.city'); }
 
-  get creditCardType(){ return this.checkoutFormGroup.get('creditCard.cardType'); }
+  get creditCardType(){
+         return this.checkoutFormGroup.get('creditCard.cardType');
+    }
   get creditCardNameOnCard(){ return this.checkoutFormGroup.get('creditCard.nameOnCard'); }
   get creditCardNumber(){ return this.checkoutFormGroup.get('creditCard.cardNumber'); }
   get creditCardSecurityCode(){ return this.checkoutFormGroup.get('creditCard.securityCode'); }
